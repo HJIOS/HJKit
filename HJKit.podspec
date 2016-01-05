@@ -13,6 +13,6 @@ s.source           = { :git => "https://github.com/HJIOS/HJKit.git", :tag => s.v
 
 s.platform     = :ios, '7.0'
 s.requires_arc = true
-s.source_files = 'HJKit/*'
+s.source_files = 'HJKit/**/*.{h,m}'
 
 end
